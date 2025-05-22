@@ -4,13 +4,9 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
     defer-datasource-initialization: true
-
   h2:
     console:
       enabled: true
-
 jwt:
-  issuer: 1234@gmail.com
-  secret_key: study-springboot
+  issuer: ajufresh@gmail.com
