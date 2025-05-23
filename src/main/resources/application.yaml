@@ -13,8 +13,8 @@ spring:
       client:
         registration:
           google:
-            client-id:
-            client-secret:
+            client-id: dummy
+            client-secret: dummy
             scope:
               - email
               - profile
