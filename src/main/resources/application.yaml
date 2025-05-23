@@ -10,3 +10,4 @@ spring:
       enabled: true
 jwt:
   issuer: 1234@gmail.com
+  secret-key: ${JWT_SECRET_KEY}
