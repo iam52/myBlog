@@ -51,6 +51,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	// mysql 의존성
 	implementation 'mysql:mysql-connector-java'
+
+	testImplementation 'com.github.javafaker:javafaker:1.0.2'
+
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
 }
 
 tasks.named('test') {
