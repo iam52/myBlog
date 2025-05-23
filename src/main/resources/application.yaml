@@ -13,8 +13,8 @@ spring:
       client:
         registration:
           google:
-            client-id: 6636..
-            client-secret: GOCS..
+            client-id:
+            client-secret:
             scope:
               - email
               - profile
