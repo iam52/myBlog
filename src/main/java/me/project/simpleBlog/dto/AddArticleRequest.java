@@ -9,6 +9,7 @@ import me.project.simpleBlog.domain.Article;
 @AllArgsConstructor
 @Getter
 public class AddArticleRequest {
+
     private String title;
     private String content;
 
