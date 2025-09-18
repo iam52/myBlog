@@ -30,9 +30,9 @@ public class User implements UserDetails {
     private String password;
 
     @Builder
-    public User(Long id, String email, String auth) {
-        this.id = id;
+    public User(String email, String password, String auth) {
         this.email = email;
+        this.password = password;
     }
 
     @Override
